@@ -6,7 +6,7 @@ app.config['JSON_AS_ASCII'] = False
 @app.route('/')
 def index():
   return jsonify({
-    "message": "Hello Python Docker."
+    "message": "Hello Python Docker pull request check."
   })
 
 if __name__ == '__main__':
